@@ -1,0 +1,28 @@
+
+#navbar {
+    text-align: center;
+    color: white;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    font-size: 150%;
+    left: 0;
+    top: 0;
+    padding: 0.5em;
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    text-align: left;
+}
+
+.navItem {
+    margin-right: 1.5em;
+    float: left;
+}
+
+.navItem :hover{
+    transform: translateY(-10px) ;
+}
+
